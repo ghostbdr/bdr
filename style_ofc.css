@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+:root{
+    --cor1:#9900EB;
+    --cor2:#B44FEF;
+    --cor3:#8F498B;
+    --cor4:#F07900;
+    --cor5:#F09419;
+    --cor6:#E5B64D;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    max-width: 100%;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: justify;
+
+}
+
+header{
+    min-height: 100px;
+    background-color: black;
+    padding-top: 10px;
+    
+}
+
+header > img{
+    display: block;
+    margin: auto;
+    color: white;
+    
+}
+
+header nav{
+    text-align: left;
+    padding: 9px;
+}
+
+header nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+    background-image: linear-gradient(to bottom, transparent,var(--cor1));
+    transition-duration: 0.4s;
+
+}
+
+section{
+    padding: 20px;
+    /*background-image: linear-gradient(to bottom, var(--cor5) , var(--cor6));*/
+    background-color: black;
+    opacity: 0.9;
+    
+}
+
+div#img1{
+    background-image: url(imgs/ofc01.jpeg);
+}
+
+div#img2{
+    background-image: url(imgs/ofc02.jpeg);
+    background-position: center center;
+}
+
+div#img3{
+    background-image: url(imgs/ofc03.jpeg);
+    background-position: center top;
+}
+
+div.banner{
+   height: 70vh;
+ /*   background-image: url(imgs/ofc01.jpeg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    
+}
+
+div.art_dir{
+    display: inline-block;
+    width: 40%;
+    max-height: 70vh;
+    background-color: #8f498c96;
+    padding: 20px 20px 0px 20px;
+}
+
+div.artdir > p{
+
+    max-height: 70vh;
+    max-width: 40%;
+}
+
+div.art_esq{
+    display: inline-block;
+    width: 40%;
+    max-height: 70vh;
+    background-color: var(--cor4);
+    font-size: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: right;
+    float: right;
+}
+
+section#convite{
+    height: 100%;
+    max-width: 1329px;
+    background-color: #8F498B;
+    padding: 10px 10px 10px 5%;
+    overflow: hidden;
+}
+
+section#convite article{
+    display: inline-block;
+
+}
+
+section#convite div{
+    display: inline-block;
+    width: 60%;
+}
