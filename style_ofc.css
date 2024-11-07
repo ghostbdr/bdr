@@ -22,7 +22,9 @@ body{
     text-align: justify;
 
 }
-
+body h2{
+    text-align: left;
+ }   
 header{
     min-height: 100px;
     background-color: black;
