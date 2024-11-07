@@ -20,6 +20,9 @@ body{
     text-align: justify;
 
 }
+body h2{
+    text-align: left;
+ }   
 
 div#banner{
     height: 70vh;
